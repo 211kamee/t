@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+body {
+  background-color: #000;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+section {
+  margin: 1rem 0;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  margin: 0.5rem 0;
+  list-style: none;
+}

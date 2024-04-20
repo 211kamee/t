@@ -37,7 +37,7 @@ body {
 }
 
 .clip1 {
-  background: url(assets/Zoro_LiveAction.jpeg);
+  background: url(assets/Zoro_LiveAction.jpg);
   background-size: cover;
   background-position: center;
   clip-path: polygon(0 0, 25% 0, 35% 100%, 0 100%);

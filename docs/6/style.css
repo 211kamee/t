@@ -45,3 +45,7 @@ a {
 
   transition: all 0.5s;
 }
+
+h2 {
+  text-decoration: underline;
+}

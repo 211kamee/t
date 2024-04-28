@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-size: clamp(0.7rem,2vw,1.2rem);
+  font-family: 'Courier New', Courier, monospace;
 }
 
 body {
@@ -32,12 +33,12 @@ body {
 .provertyP {
   background-size: cover;
   background-position: center;
-  height: 30vw;
-  width: 50vw;
+  height: 24vw;
+  width: 40vw;
 }
 
 .E1, .E2, .E3 {
-  width: 50vw;
+  width: 40vw;
   position: relative;
   margin: 2rem;
   overflow: hidden;

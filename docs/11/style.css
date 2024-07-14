@@ -76,6 +76,7 @@ body {
 }
 
 .calender div {
+  pointer-events: none;
   z-index: 1;
 }
 .calender:hover {

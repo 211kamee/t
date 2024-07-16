@@ -1,17 +1,21 @@
 .hover_border {
-  margin: 1rem 0;
+  position: fixed;
+  width: 100%;
 }
 
 .hover_border li {
+  padding: 1rem 0;
   margin: 0.5rem 0;
   list-style: none;
 }
 
 .hover_border ul {
+  background-color: rgb(32, 32, 32);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  border-bottom: 2px solid lightgray;
 }
 
 .hover_border a {

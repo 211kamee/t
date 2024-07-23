@@ -4,7 +4,6 @@
   box-sizing: border-box;
 
   font-family: 'Courier New', Courier, monospace;
-  text-transform: uppercase;
   color: #fff;
 }
 
@@ -15,7 +14,8 @@ body {
 
 .pic-container {
   padding-top: 6rem;
-  width: 100%;
+  margin: 0 auto;
+  width: clamp( 0px, 100%, 1980px);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -29,6 +29,26 @@ body {
   margin: 1rem;
   border-radius: 8px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .endOfThePageLoader {
   display: block;
